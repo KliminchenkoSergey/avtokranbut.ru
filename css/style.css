@@ -302,7 +302,7 @@ section {
 /* --------- 2.1 Header --------- */
 
 #header {
-    height: 71px !important;
+    height: 71px;
     overflow: visible;
     z-index: 9999;
     width: 100%;
@@ -1146,6 +1146,13 @@ blockquote {
         border: none;
     }
 }
+/* Мои добавления */
+@media only screen and (max-width: 1118px) {
+    #banner-content {
+        font-size: 30px;
+    }
+
+}
 
 /* handling phones and small screens */
 @media only screen and (max-width: 1118px) {
@@ -1158,7 +1165,6 @@ blockquote {
         padding: 10px 10px 0;
         border-bottom: 10px solid transparent;
     }
-
 }
 
 /* Gallery Styling */
