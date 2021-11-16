@@ -1030,6 +1030,7 @@ blockquote {
  * MIT Licensed.
 **/
 @media all {
+
     .featherlight {
         display: none;
 
@@ -1148,7 +1149,10 @@ blockquote {
 }
 /* Мои добавления */
 @media only screen and (max-width: 1118px) {
-    #banner-content {
+#banner h1 {
+    font-size: 40px !important;
+}
+ #banner-content {
         font-size: 30px;
     }
 

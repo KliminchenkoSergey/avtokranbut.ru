@@ -128,6 +128,13 @@ a:hover, #header.nav-solid nav a:hover {
     background-size:cover;
 }
 
+@media only screen and (max-width: 1118px) {
+#banner {
+    background: none;
+}
+
+}
+
 
 /*------------------------------------------------------------------------------------------*/
 /* 5. Typography */
